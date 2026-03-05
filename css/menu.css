@@ -53,18 +53,6 @@ h2 {
     padding-bottom: 10px;
 }
 
-#aluno {
-    border-left: 5px solid #27ae60;
-}
-
-#curiosidades ul {
-    padding-left: 20px;
-}
-
-#curiosidades li {
-    margin-bottom: 10px;
-}
-
 section img {
     display: block;
     margin: 50px auto 20px auto;
@@ -77,8 +65,11 @@ footer {
     color: #7f8c8d;
     background: #eef2f3;
 }
-#vaticano-image {
-    border-radius: 8px;
-    align-items: center;
-    height: 400px;
+a {
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    background-color: #2980b9;
+    color: white; 
+    border-radius: 5px;
 }
