@@ -1,61 +1,86 @@
-* {
+body {
+  line-height: 1.6;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-}
-
-body {
-  background-color: #0d1117;
-  color: #c9d1d9;
-  min-height: 100vh;
+  background-color: #f4f7f6;
+  color: #333;
 }
 
 header {
-  padding: 20px;
-  border-bottom: 1px solid #30363d;
+  background-color: #2c3e50;
+  color: white;
+  padding: 2rem 1rem;
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+}
+
 header h1 {
-  font-size: 22px;
-  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+header ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+header ul li {
+  background: #34495e;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
 }
 
 main {
-  display: flex;
-  justify-content: center;
-  padding: 40px 20px;
-}
-
-.container {
-  width: 100%;
   max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
 }
 
-.card {
-  background-color: #161b22;
+section {
+  background: white;
+  margin-bottom: 20px;
   padding: 20px;
-  border-radius: 6px;
-  margin-bottom: 16px;
-  transition: border 0.2s ease;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-.card h2 {
-  font-size: 16px;
+
+h2 {
+  color: #2980b9;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 10px;
+}
+
+#aluno {
+  border-left: 5px solid #27ae60;
+}
+
+#curiosidades ul {
+  padding-left: 20px;
+}
+
+#curiosidades li {
   margin-bottom: 10px;
 }
 
-.card a {
-  display: inline-block;
-  font-weight: bold;
-  text-decoration: none;
-  background-color: #238636;
-  color: white;
-  padding: 6px 12px;
-  border-radius: 6px;
-  font-size: 14px;
+section img {
+  display: block;
+  margin: 50px auto 20px auto;
 }
 
-.card a:hover {
-  background-color: #2ea043;
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.8rem;
+  color: #7f8c8d;
+  background: #eef2f3;
+}
+
+#vaticano-image {
+  border-radius: 8px;
+  height: 400px;
 }
