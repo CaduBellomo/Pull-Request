@@ -73,3 +73,7 @@ a {
     color: white; 
     border-radius: 5px;
 }
+
+.card a{
+    text-decoration: none;
+}
