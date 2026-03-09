@@ -84,3 +84,20 @@ footer {
   border-radius: 8px;
   height: 400px;
 }
+
+#voltar {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    display: block;
+    text-decoration: none;
+}
+
+a {
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    background-color: #2980b9;
+    color: white; 
+    border-radius: 5px;
+}
